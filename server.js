@@ -37,7 +37,7 @@ db.sequelize.sync({force: true}).then(() => {
 
 // simple route
 app.get("/", (req, res) => {
-    res.json({message: "Welcome to esparkinfo application."})
+    res.json({message: "todo list backend"})
 });
 
 require("./app/routes/tutorial.routes")(app);
